@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <title>DevCamp ecommerce assignment</title>
+  </head>
+  <body>
+    <header >
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="active navbar-brand">DevCamp Shop</a
+          ><button
+            aria-controls="basic-navbar-nav"
+            type="button"
+            aria-label="Toggle navigation"
+            class="navbar-toggler collapsed"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="basic-navbar-nav">
+            <div class="ml-auto navbar-nav">
+              <a href="cart.html" data-rb-event-key="/cart" class="nav-link"
+                ><i class="fas fa-shopping-cart"></i>Cart</a
+              ><a href="login.html" data-rb-event-key="/login" class="nav-link"
+                ><i class="fas fa-user"></i>Sign in</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="form-container">
+      <form>
+        <h3>I don't have an account</h3>
+        <p>Register with your details</p>
+        <br />
+        <div class="group">
+          <label for="name" class="form-input-label">Name</label><br />
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Full Name"
+            required
+          />
+        </div>
+        <div class="group">
+          <label for="email" class="form-input-label">Email</label><br />
+          <input
+            class="form-input"
+            type="email"
+            placeholder="abc@example.com"
+            required
+          />
+        </div>
+        <div class="group">
+          <label for="password" class="form-input-label">Password</label><br />
+          <input
+            class="form-input"
+            type="password"
+            placeholder="Enter Password"
+            required
+          />
+        </div>
+        <div class="group">
+          <label for="password" class="form-input-label">Confirm Password</label><br />
+          <input
+            class="form-input"
+            type="password"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <input type="submit" class="submit-button" value="Register" />
+        <p>alreay have an account? <em><a href="login.html" style="color: blue; text-decoration: underline;">sign in</a></em></p>
+      </form>
+
+  </body>
+</html>
