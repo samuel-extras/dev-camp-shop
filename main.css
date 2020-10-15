@@ -4,6 +4,7 @@
 main {
   min-height: 80vh;
   padding-top: 4px;
+  overflow: auto;
 }
 strong {
   font-weight: 400;
@@ -1446,6 +1447,7 @@ pre code {
   width: 100%;
   margin-bottom: 1rem;
   color: #55595c;
+  display: table;
 }
 .table td,
 .table th {
@@ -8865,4 +8867,85 @@ input[type="password"] {
 }
 .card-details .card-title{
   overflow: hidden;
+}
+.align-center{
+  text-align: center !important;
+
+}
+.checkout{
+  width: 100%;
+  padding: 25px;
+  
+  text-align: center;
+  align-self: center;
+}
+
+.checkout-title{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(121, 114, 114);
+
+}
+.checkout-details{
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgb(121, 114, 114);
+}
+.checkout-details div{
+  padding: 40px;
+}
+.price{
+  padding: 2px;
+}
+.checkout-price{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.checkout-total{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+  flex-wrap: wrap;
+
+}
+.delivery{
+  text-align: left;
+  padding: 10px;
+}
+.delivery label{
+  font-size: 20px;
+  font-weight: bold;
+}
+.payment{
+  text-align: center;
+  padding: 10px;
+}
+.payment div{
+  padding: 10px;
+}
+.success{
+  width: 100%;
+  text-align: center;
+}
+.pop-up{
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  right: 30%;
+   
+  min-height: 300px ;
+  border: 1px solid black;
+}
+@media (min-width: 991px) {
+  .checkout{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
 }
