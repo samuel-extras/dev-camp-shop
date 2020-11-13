@@ -1,0 +1,99 @@
+{
+
+"products": [
+  {
+    "name": "Nike Air Force 1 High '07",
+    "category": "Air Force",
+    "description":
+      "The legend lives on in the Nike Air Force 1 High '07, an update on the iconic AF-1 that offers classic court style and premium cushioning",
+    "price": 89.99,
+    "discount": 8,
+    "review": 4,
+    "imgUrl":
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/oktc8rwsjw7st7scvqrd/air-force-1-high-07-shoe-tg72Lx.jpg",
+    "videoUrl":
+      "https://static.nike.com/a/videos/q_90/88a5b5cb-9dc0-477f-875e-83d71ea00042/video.mp4",
+    "_ID": 1
+  },
+  {
+    "name": "Nike Air Force 1 '07",
+    "category": "Air Force",
+    "description": "Hoops in the park, Sunday BBQs and sunshine. The radiance lives on in the Nike Air Force 1 '07, the b-ball OG that puts a fresh spin on the features you know best: crisp leather, stitched overlays in classic all white and the perfect amount of flash to make you shine",
+    "price": 599.99,
+    "discount": 0,
+    "review": 5.5,
+    "imgUrl": "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/gsuin11ptg5qgktmzoat/air-force-1-07-shoe-KyTDGepj.jpg",
+    "videoUrl":"https://static.nike.com/a/videos/q_90,vc_vp9/fnpfrqywv44pehh8o1ug/video.webm",
+    "_ID": 2
+  },
+  {
+    "name": "Nike SB Zoom Stefan Janoski RM",
+    "category": "SB Zoom",
+    "description":"The Nike SB Zoom Stefan Janoski RM pairs a minimal look with a modern fit. It has been updated with a new, plush sockliner and a flexible outsole for better boardfeel right out of the box",
+    "price": 929.99,
+    "discount": 10,
+    "review": 3,
+    "imgUrl":
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/46c782fe-98c5-47b2-bfc4-9d7fa58c96cc/sb-zoom-stefan-janoski-rm-skate-shoe-X28Cx9.jpg",
+    "videoUrl":
+      "https://static.nike.com/a/videos/q_90/88a5b5cb-9dc0-477f-875e-83d71ea00042/video.mp4",
+    "_ID": 3
+  },
+  {
+    "name": "Nike Air Max 90",
+    "category": "Air Max",
+    "description": "Featuring the original ripple design inspired by Japanese bullet trains, the Nike Air Max 97 lets you push your style full-speed ahead. Taking the revolutionary full-length Nike Air unit that shook up the running world and adding fresh colours and crisp details, it lets you ride in first-class comfort",
+    "price": 399.99,
+    "discount": 2,
+    "review": 6,
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a47b2ef9-8239-4e82-99fd-e6159c0df489/air-max-97-shoe-z3TlrlVN.jpg",
+    "videoUrl":"https://static.nike.com/a/videos/q_90,vc_vp9/ysiiv5of83izqjkmilr5/video.webm",
+    "_ID": 4
+  },
+  {
+    "name": "Nike Air Force 1 '07 LV8",
+    "category": "Air Force",
+    "description":"Elevate to legendary status in the Nike Air Force 1 '07 LV8. Refreshed colours highlight the premium details that landed this iconic design at the pinnacle of sneaker culture.",
+    "price": 89.99,
+    "discount": 9,
+    "review": 3,
+    "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4825f9df-ce88-4886-be46-b7f5f1102c6a/air-force-1-07-lv8-shoe-ng2WcP.jpg",
+    "videoUrl":"https://static.nike.com/a/videos/q_90,vc_vp9/fnpfrqywv44pehh8o1ug/video.webm",
+    "_ID": 5
+  },
+  {
+    "name": "Nike Mercurial Superfly 7 Elite MDS FG",
+    "category": "Mercurial",
+    "description":"Dream of speed and play fast in the Nike Mercurial Superfly 7 Elite MDS FG. A streamlined upper combines with a Nike Aerowtrac zone for high-speed play and supercharged traction",
+    "price": 29.99,
+    "discount": 0,
+    "review": 4,
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/014cc408-19a5-4d59-b839-1dc385aa327a/mercurial-superfly-7-elite-fg-football-boot-94j6sh.jpg",
+    "videoUrl":"https://static.nike.com/a/videos/q_90,vc_vp9/4e991bea-795f-4720-8a9f-89c871b69717/video.webm",
+    "_ID": 6
+  },
+  {
+    "name": "Jordan Delta",
+    "category": "Jordan",
+    "description": "  The Jordan Delta has a design that's expressive and comfortable from the inside out. Made from a mix of materials, this shoe has plush, lightweight foam underfoot. It's meticulously crafted for a look and feel only Jordan Brand can deliver",
+    "price": 89.99,
+    "discount": 0,
+    "review": 4.5,
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2842d752-98fc-4a0a-9d32-42c61f58be3d/jordan-delta-shoe-BhH2tV.jpg",
+    "videoUrl":"https://static.nike.com/a/videos/q_90,vc_vp9/04a0c4f5-0b20-4507-8402-b7d151472243/video.webm",
+    "_ID": 7
+  },
+  {
+    "name": "Nike SB Blazer Low GT",
+    "category": "SB Blazer",
+    "description": "The Nike SB Blazer Low GT pairs a supportive feel with lightweight, responsive cushioning for everyday use. Just like Grant Taylor, it blends contemporary style with old-school traditions",
+    "price": 129.99,
+    "discount": 3,
+    "review": 4,
+    "imgUrl":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f915c3bb-77ef-420a-a910-ffeafda04479/sb-blazer-low-gt-skate-shoe-L8LpKp.jpg",
+    "videoUrl":"https://static.nike.com/a/videos/q_90,vc_vp9/1c5dadfe-7c7f-4463-beaa-fd4ae2964d08/video.webm",
+    "_ID": 8
+  }
+  
+]
+}

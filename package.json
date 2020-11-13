@@ -1,0 +1,20 @@
+{
+  "name": "devcamp-shop",
+  "version": "1.0.0",
+  "description": "wootlab shop assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-extras/dev-camp-shop.git"
+  },
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-extras/dev-camp-shop/issues"
+  },
+  "homepage": "https://github.com/samuel-extras/dev-camp-shop#readme",
+  "dependencies": {}
+}

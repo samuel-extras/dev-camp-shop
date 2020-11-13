@@ -4,260 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
 
-    <title>DevCamp ecommerce assignment</title>
-  </head >
+    <title>DevCamp Shop</title>
+  </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a href="index.html" class="active navbar-brand">DevCamp Shop</a
-          ><button
-            aria-controls="basic-navbar-nav"
-            type="button"
-            aria-label="Toggle navigation"
-            class="navbar-toggler collapsed"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse" id="basic-navbar-nav">
-            <div class="ml-auto navbar-nav">
-              <a href="cart.html" data-rb-event-key="/cart" class="nav-link"
-                ><i class="fas fa-shopping-cart"></i>Cart</a
-              ><a href="login.html" data-rb-event-key="/login" class="nav-link"
-                ><i class="fas fa-user"></i>Sign in</a
-              >
-            </div>
+   <header>
+      <nav class="navbar">
+        <div class="navbar-center">
+          <a href="index.html">
+
+            <img src="./devcamp.png" width="200px" height="60px" alt="devcamp logo" />
+          </a>
+          <div class="nav-items">
+          <div class="cart-btn">
+            <a href="/cart.html">
+
+              <span class="nav-icon"><i class="fas fa-shopping-cart"></i></span>
+              <div class="cart-items">0</div>
+            </a>
+          </div>
+          <div class="">
+           <a href="/login.html">
+
+             <span class="nav-icon"><i class="fas fa-user"></i></span>
+           </a>
+          </div>
           </div>
         </div>
       </nav>
     </header>
-    <main class="align-center">
+ <main style="text-align: center; padding-top: 30px;">
+  <div style="width: 100%; display: flex; ">
+
+    <a href="index.html" class="btn btn-outline-primary" style=" margin-left: 30px; margin-bottom: 20px;" class="btn btn-primary"
+          >COUNTINUE SHOPPING</a
+          >
+  </div>
       <table class="table container">
         <thead>
           <tr>
-            <th scope="col">#</th>
             <th scope="col">Item</th>
             <th scope="col">Quantity</th>
             <th scope="col">Unit Price</th>
             <th scope="col">Subtotal</th>
+            <th scope="col">Remove</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>
-              <img
-                width="100px"
-                height="100px"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAuywDkJf5TzhGYD3gguH57KmkKgxb2uPsqQ&amp;usqp=CAU/200*200"
-              />
-              <div>
-                <h5>Nike Joyride</h5>
-              </div>
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              - &nbsp; 1 &nbsp; +
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-               $89.99 &nbsp; 
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-               $89.99 &nbsp; 
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>
-              <img
-                width="100px"
-                height="100px"
-                src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/gsuin11ptg5qgktmzoat/air-force-1-07-shoe-KyTDGepj.jpg"
-                />
-              <div>
-                <h5>Nike Air Force 1 '07</h5>
-              </div>
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              - &nbsp; 1 &nbsp; +
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $599.99&nbsp; 
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $599.99&nbsp; 
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>
-              <img
-                width="100px"
-                height="100px"
-                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b5e6c721-30bf-4bef-807b-961b83e0bb24/air-max-90-shoe-X9fMD7.jpg"
-                />
-              <div>
-                <h5>Nike Air Max 90</h5>
-              </div>
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              - &nbsp; 1 &nbsp; +
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $929.99&nbsp; 
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $929.99&nbsp; 
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>
-              <img
-                width="100px"
-                height="100px"
-                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c23ddaf4-9189-4458-af8f-0516e494959f/air-max-90-nrg-shoe-2zl1vB.jpg"
-                />
-              <div>
-                <h5>Nike Air Max 90 NRG</h5>
-              </div>
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              - &nbsp; 1 &nbsp; +
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $399.99&nbsp; 
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $399.99&nbsp; 
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>
-              <img
-                width="100px"
-                height="100px"
-                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/64fd2d35-778c-4497-85bf-10da2b658a2e/metcon-6-flyease-training-shoe-gBbJh1.jpg"
-                />
-              <div>
-                <h5>Nike Metcon 6 FlyEase</h5>
-              </div>
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              - &nbsp; 1 &nbsp; +
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $49.99&nbsp; 
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $49.99&nbsp; 
-            </td>
-          </tr>
+        <tbody class="in-cart">
           
-          <tr>
-            <th scope="row">6</th>
-            <td>
-              <img
-                width="100px"
-                height="100px"
-                src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/x2ebkrjqt7m6yianiyyc/zoom-rival-s-9-track-spike-w8Torw9V.jpg"
-                />
-              <div>
-                <h5>Nike Zoom Rival S 9</h5>
-              </div>
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              - &nbsp; 1 &nbsp; +
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $29.99&nbsp; 
-            </td>
-            <td>
-              <br />
-              <br />
-              <br />
-              $29.99&nbsp; 
-            </td>
-          </tr>
-          <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><h4>Total</h4> </td>
-              <td><h4>$2,099.94</h4> </td>
-          </tr>
-          
-          
-        </tbody>
-        
-      </table>
-      <a href="checkout.html" style="width: auto;" class="btn btn-primary">CHECKOUT</a>
+           </tbody>
+        <tfoot>
 
+          <tr>
+            <td></td>
+            <td></td>
+            <td><h4>Total</h4></td>
+            <td><h4 class="cart-items-total">$0</h4></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+      <a href="checkout.html" class="btn btn-primary"
+        >CHECKOUT</a
+      >
+      <button class="btn btn-outline-primary clear-cart"
+        >CLEAR CART </button
+      >
     </main>
-    <footer>
+      <footer>
       <div class="container">
         <div class="row">
           <div class="text-center py-3 col">Copyright © DevcampShop</div>
         </div>
       </div>
     </footer>
+    <script src="cart.js"></script>
   </body>
 </html>
