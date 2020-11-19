@@ -18,6 +18,9 @@ body {
   background: var(--mainWhite) !important;
   font-family: "Lato", sans-serif;
 }
+a{
+  text-decoration: none !important;
+}
 main{
   margin-top: 105px;
 }
