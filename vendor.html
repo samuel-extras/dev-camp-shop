@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -24,22 +24,16 @@
     <header>
       <nav class="navbar">
         <div class="navbar-center">
-          
-          <img src="./devcamp.png" width="200px" height="60px" alt="devcamp logo" />
-          <div class="nav-items">
-          <div class="cart-btn">
-            <a href="cart.html">
+          <a href="vendor.html">
 
-              <span class="nav-icon"><i class="fas fa-shopping-cart"></i></span>
-              <div class="cart-items">0</div>
-            </a>
-          </div>
-          <div class="" id="user">
-            <span class="nav-icon" ><i class="fas fa-user"></i></span>
-           <a href="login.html" class="user" style="position: absolute; bottom: -6px; right: 20px; display: none;">
-            <span class="check-user" >
-              Login
-            </span>
+            <img src="./devcamp.png" width="200px" height="60px" alt="devcamp logo" />
+          </a>
+          <div class="nav-items">
+          
+          <div class="">
+           <a href="/login.html">
+
+             <span class="nav-icon"><i class="fas fa-user"></i></span>
            </a>
           </div>
           </div>
@@ -48,6 +42,12 @@
     </header>
 
     <main >
+      <div style="width: 100%; display: flex; ">
+
+    <a id="add-product" data-id="0" class="btn btn-outline-primary" style=" margin-left: 30px; margin-bottom: 20px;" class="btn btn-primary"
+          >ADD PRODUCT</a
+          >
+  </div>
       <section class="products">
           <div class="products-row" >
             
@@ -61,6 +61,6 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="vendor.js"></script>
   </body>
 </html>

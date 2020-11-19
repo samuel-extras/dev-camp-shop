@@ -19,7 +19,10 @@
     <header>
       <nav class="navbar">
         <div class="navbar-center">
-          <img src="./devcamp.png" width="200px" height="60px" alt="devcamp logo" />
+          <a href="index.html">
+
+            <img src="./devcamp.png" width="200px" height="60px" alt="devcamp logo" />
+          </a>
           <div class="nav-items">
           <div class="cart-btn">
             <a href="/cart.html">
@@ -38,50 +41,47 @@
         </div>
       </nav>
     </header>
-<div class="form-container">
+    <main>
+
+      <div class="container">
       <form>
-        <h3>I don't have an account</h3>
-        <p>Register with your details</p>
-        <br />
-        <div class="group">
-          <label for="name" class="form-input-label">Name</label><br />
-          <input
-            class="form-input"
-            type="text"
-            placeholder="Full Name"
-            required
-          />
+        <h3>Already have an account?</h3>
+          <p>Log in with your details</p>
+          <br />
+    <div class="form-group row">
+      <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password">
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary" style="border-radius: 50px;">Register</button>
+      </div>
+    </div>
+    <p>Already have an account? &nbsp; <a href="login.html" style="color: blue; text-decoration: underline;"><em>Sign In</em></a></p>
+  </form>
         </div>
-        <div class="group">
-          <label for="email" class="form-input-label">Email</label><br />
-          <input
-            class="form-input"
-            type="email"
-            placeholder="abc@example.com"
-            required
-          />
-        </div>
-        <div class="group">
-          <label for="password" class="form-input-label">Password</label><br />
-          <input
-            class="form-input"
-            type="password"
-            placeholder="Enter Password"
-            required
-          />
-        </div>
-        <div class="group">
-          <label for="password" class="form-input-label">Confirm Password</label><br />
-          <input
-            class="form-input"
-            type="password"
-            placeholder="Confirm Password"
-            required
-          />
-        </div>
-        <input type="submit" class="submit-button" value="Register" />
-        <p>alreay have an account? <em><a href="login.html" style="color: blue; text-decoration: underline;">sign in</a></em></p>
-      </form>
+    </main>
+    
 
   </body>
 </html>
